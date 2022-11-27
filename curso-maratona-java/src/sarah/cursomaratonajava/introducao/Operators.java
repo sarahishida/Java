@@ -37,5 +37,18 @@ public class Operators {
         boolean isPs5Buyable = currentAccountTotalAmount > ps5 || savingsAccountTotalAmount > ps5;
         System.out.println("isPs5Buyable " + isPs5Buyable);
 
+        // = += -=  *= /= %=
+        double bonus = 1800;
+        bonus += 1000;
+        bonus -= 1000;
+        bonus *= 2;
+        bonus /= 2;
+        bonus %= 2;
+        System.out.println(bonus);
+
+        //
+        int count = 0;
+        count++; //count += 1;
+        ++count;
     }
 }
